@@ -1,0 +1,35 @@
+<html>
+    <head>
+<title>week2challenge2(i)</title>
+    </head>
+<body>
+
+<script>
+function fizzbuzz(){
+var arr1 = [1,4,9,16,25];
+var arr2 = [0,1,2,3,4,5,6,7,8,9];
+var a = arr1.length;
+var b = arr2.length;
+var x = a + b;
+var y = x % 3;
+var z = y % 5;
+if (y == 0 && z != 0) {
+window.alert("Fizz");
+} 
+else if(z == 0 && y != 0){
+  window.alert("Buzz");
+}
+else if (y == 0 && z == 0) {
+  window.alert("fizzBuzz");
+} 
+else {
+  window.alert(x);
+}
+}
+window.alert(fizzbuzz());
+
+
+</script>
+</body>
+
+</html>
